@@ -65,10 +65,9 @@ input, textarea {
   height: auto;
 } */
 
-
 /* General Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f4f4f9;
   margin: 0;
   padding: 0;
@@ -89,7 +88,8 @@ form {
   max-width: 500px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -97,13 +97,14 @@ input, textarea {
   border-radius: 4px;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
-  border-color: #007BFF;
+  border-color: #007bff;
 }
 
 button {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -156,7 +157,8 @@ button:hover {
 
 /* Media Queries */
 @media (max-width: 600px) {
-  form, .destination-item {
+  form,
+  .destination-item {
     padding: 10px;
   }
 

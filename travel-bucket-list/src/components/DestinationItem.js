@@ -1,6 +1,10 @@
-import React from 'react';
+import React from "react";
 
-function DestinationItem({ destination, setCurrentDestination, removeDestination }) {
+function DestinationItem({
+  destination,
+  setCurrentDestination,
+  removeDestination,
+}) {
   return (
     <div className="destination-item">
       <h3>{destination.name}</h3>
